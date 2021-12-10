@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    [
+      "babel-plugin-catch-reporter",
+      {
+        "name": "Sentry",
+        "source": "@sentry/browser",
+        "methodName": "captureException",
+        "catchPromise": false,
+        "namespaced": true
+      }
+    ],
+    [
+      "./index.js"
+    ]
+  ]
+}

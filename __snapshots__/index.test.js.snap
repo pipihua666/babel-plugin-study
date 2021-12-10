@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`unknown plugin 2. unknown plugin: 2. unknown plugin 1`] = `
+
+a**=b
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+var _a;
+
+_a = a;
+a = Math.pow(_a, b);
+
+
+`;
+
+exports[`unknown plugin 赋值: 赋值 1`] = `
+
+a**=b
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+var _a;
+
+_a = a;
+a = Math.pow(_a, b);
+
+
+`;

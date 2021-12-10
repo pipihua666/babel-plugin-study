@@ -1,0 +1,23 @@
+{
+  "name": "parse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compiler-sentry": "babel ./sentry-plugin/index.js -o ./sentry-plugin/compiler.js --watch",
+    "compiler-my-plugin": "babel ./custom-plugin/index.js -o ./custom-plugin/compiler.js --watch",
+    "test": "jest --verbose",
+    "test-cov": "jest --verbose --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0"
+  },
+  "dependencies": {
+    "@babel/helper-explode-assignable-expression": "^7.16.0",
+    "@babel/types": "^7.16.0",
+    "babel-plugin-catch-reporter": "^0.1.4",
+    "babel-plugin-tester": "^10.1.0",
+    "jest": "^27.4.3"
+  }
+}
