@@ -4,14 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "compiler-sentry": "babel ./sentry-plugin/index.js -o ./sentry-plugin/compiler.js --watch",
+    "compiler-sentry": "babel ./sentry-plugin/index.ts -o ./sentry-plugin/compiler.ts --watch",
     "compiler-my-plugin": "babel ./custom-plugin/index.js -o ./custom-plugin/compiler.js --watch",
     "test": "jest --verbose",
     "test-cov": "jest --verbose --coverage"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
-    "@babel/core": "^7.16.0"
+    "@babel/core": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.5"
   },
   "dependencies": {
     "@babel/helper-explode-assignable-expression": "^7.16.0",
