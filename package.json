@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "compiler-sentry": "babel ./sentry-plugin/index.ts -o ./sentry-plugin/compiler.ts --watch",
     "compiler-my-plugin": "babel ./custom-plugin/index.js -o ./custom-plugin/compiler.js --watch",
     "test": "jest --verbose",
     "test-cov": "jest --verbose --coverage"
